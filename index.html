@@ -13,8 +13,9 @@
         rel="stylesheet">
     <!-- daisyui-CDN -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+     <!-- tailwind -CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- tailwind -CDN -->
+   
     <style>
         .sora-font {
             font-family: "Sora", serif;
@@ -107,51 +108,255 @@
                 <h3 class="text-4xl font-semibold text-primary mb-12">Services</h3>
             </div>
             <!-- card -->
-             <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 container mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 container mx-auto">
 
                 <!-- card-1 -->
-            <div class="card bg-base-100 w-[410px] h-96 shadow-xl rounded-2xl bg-secondary p-4 lg:p-8 mx-4">
-                <div class="avatar">
-                    <div class="mx-auto ring-offset-base-100 w-[150px] h-[150px] rounded-full ring-offset-2">
-                      <img class="bg-white" src="c2-assets/service.png" />
+                <div class="card bg-base-100 w-[410px] h-96 shadow-xl rounded-2xl bg-secondary p-4 lg:p-8 mx-4">
+                    <div class="avatar">
+                        <div class="mx-auto ring-offset-base-100 w-[150px] h-[150px] rounded-full ring-offset-2">
+                            <img class="bg-white" src="c2-assets/service.png" />
+                        </div>
                     </div>
-                  </div>
-                <div class="card-body text-center overflow-hidden">
-                  <h2 class="text-2xl font-semibold">24/7 Services</h2>
-                  <p class="text-xl font-light text-black">Our 24/7 service means you no longer have to worry about store hours.</p>
-                </div>
-              </div>
-            <!-- card-2 -->
-            <div class="card bg-base-100 w-[410px] h-96 shadow-xl rounded-2xl bg-secondary p-4 lg:p-8 mx-4">
-                <div class="avatar">
-                    <div class="mx-auto ring-offset-base-100 w-[150px] h-[150px] rounded-full ring-offset-2">
-                      <img class="bg-white" src="c2-assets/delivery.png" />
+                    <div class="card-body text-center overflow-hidden">
+                        <h2 class="text-2xl font-semibold">24/7 Services</h2>
+                        <p class="text-xl font-light text-black">Our 24/7 service means you no longer have to worry
+                            about store hours.</p>
                     </div>
-                  </div>
-                <div class="card-body text-center overflow-hidden">
-                  <h2 class=" text-center text-2xl font-semibold">Fast Delivery</h2>
-                  <p class="text-xl font-light">We provide fast reliable delivery of fresh vegetables 24/7 anytime!</p>
                 </div>
-              </div>
-              <!-- card-3 -->         
-            <div class="card bg-base-100 w-[410px] h-96 shadow-xl rounded-2xl bg-secondary p-4 lg:p-8 mx-4">
-                <div class="avatar">
-                    <div class="mx-auto ring-offset-base-100 w-[150px] h-[150px] rounded-full ring-offset-2">
-                      <img class="bg-white" src="c2-assets/healthy.png" />
+                <!-- card-2 -->
+                <div class="card bg-base-100 w-[410px] h-96 shadow-xl rounded-2xl bg-secondary p-4 lg:p-8 mx-4">
+                    <div class="avatar">
+                        <div class="mx-auto ring-offset-base-100 w-[150px] h-[150px] rounded-full ring-offset-2">
+                            <img class="bg-white" src="c2-assets/delivery.png" />
+                        </div>
                     </div>
-                  </div>
-                <div class="card-body overflow-hidden">
-                  <h2 class="text-center text-2xl font-semibold">Healthy Products </h2>
-                  <p class="text-xl font-light text-center">Our healthy products are fresh,organic and nutrient richensuring.</p>
+                    <div class="card-body text-center overflow-hidden">
+                        <h2 class=" text-center text-2xl font-semibold">Fast Delivery</h2>
+                        <p class="text-xl font-light">We provide fast reliable delivery of fresh vegetables 24/7
+                            anytime!</p>
+                    </div>
                 </div>
-              </div>
+                <!-- card-3 -->
+                <div class="card bg-base-100 w-[410px] h-96 shadow-xl rounded-2xl bg-secondary p-4 lg:p-8 mx-4">
+                    <div class="avatar">
+                        <div class="mx-auto ring-offset-base-100 w-[150px] h-[150px] rounded-full ring-offset-2">
+                            <img class="bg-white" src="c2-assets/healthy.png" />
+                        </div>
+                    </div>
+                    <div class="card-body overflow-hidden">
+                        <h2 class="text-center text-2xl font-semibold">Healthy Products </h2>
+                        <p class="text-xl font-light text-center">Our healthy products are fresh,organic and nutrient
+                            richensuring.</p>
+                    </div>
+                </div>
 
             </div>
         </section>
+        <section class="my-36 w-full bg-secondary h-[1400px] lg:h-[780px]">
+        <div class="">
+            <div class=" container mx-auto"> 
+                <h3 class="py-12 text-4xl font-semibold text-primary">Popular Products</h3>
+                <!-- content and image -->
+                
+                <div class="grid grid-cols-1 lg:grid-cols-4 gap-10">
+                        <div class="">
+                            <div class="bg-gradient-to-t from-green-200 to-green-500 rounded-lg lg:mx-4 mx-2 w-[440px] h-[400px]">
+                                <div class="poppins-font px-6 ">
+                                    <h3 class="text-4xl text-white py-8">30% Off</h3>
+                                    <p class="text-xl text-slate-600 lg:py-6">Discover a world treats, toys and essentials handpicked for</p>
+                                    <button class="btn text-xl">Buy Now</button>
+                                </div>
+                                <div class="relative lg:left-52 left-[90px]  bottom-12">
+                                    <img class="w-48 h-48 " src="c2-assets/vegetable-offer.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    
+                    <!--card layout -->
+                        <div class="w-[880px] h-[400px] grid grid-cols-2 lg:grid-cols-3 gap-y-4 lg:ml-40 space-x-0">
+                            <!-- card-1 -->
+                            <div class="card bg-base-100 w-64 h-32
+                            shadow-xl">
+                                <div class=" grid grid-flow-col items-center px-3">
+                                    <div class="card-actions ">
+                                        <img class="bg-secondary mx-auto my-4 w-24 h-24 rounded-lg"
+                                        src="c2-assets/onion.png" alt="">
+                                    </div>
+                                    <!-- content -->
+                                    <div class="flex-1">
+                                        <div class="flex flex-row gap-2">
+                                            <div class="text-amber-500 text-lg flex-row"><i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <h5 class="text-base">4.5</h5>
+                                        </div>
+                                        <p class="text-lg font-semibold">Onion 1 KG</p>
+                                        <h4 class="text-lg font-semibold"> $ 39.99</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- card-2 -->
+                            <div class="card bg-base-100 w-64 h-32 shadow-xl">
+                                <div class=" grid grid-flow-col items-center">
+                                    <div class="card-actions ">
+                                        <img class="bg-secondary mx-auto my-4 w-24 h-24 rounded-lg"
+                                        src="c2-assets/tomato.png" alt="">
+                                    </div>
+                                    <!-- content -->
+                                    <div class="flex-1">
+                                        <div class="flex flex-row gap-2">
+                                            <div class="text-amber-500 text-lg flex-row"><i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <h5 class="text-base">4.5</h5>
+                                        </div>
+                                        <p class="text-lg font-semibold">Onion 1 KG</p>
+                                        <h4 class="text-lg font-semibold"> $ 39.99</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- card-3 -->
+                            <div class="card bg-base-100 w-64 h-32 shadow-xl">
+                                <div class=" grid grid-flow-col items-center">
+                                    <div class="card-actions ">
+                                        <img class="bg-secondary mx-auto my-4 w-24 h-24 rounded-lg"
+                                        src="c2-assets/potato.png" alt="">
+                                    </div>
+                                    <!-- content -->
+                                    <div class="flex-1">
+                                        <div class="flex flex-row gap-2">
+                                            <div class="text-amber-500 text-lg flex-row"><i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <h5 class="text-base">4.5</h5>
+                                        </div>
+                                        <p class="text-lg font-semibold">Onion 1 KG</p>
+                                        <h4 class="text-lg font-semibold"> $ 39.99</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- card-4 -->
+                            <div class="card bg-base-100 w-64 h-32 shadow-xl">
+                                    <div class=" grid grid-flow-col items-center">
+                                        <div class="card-actions ">
+                                            <img class="bg-secondary mx-auto my-4 w-24 h-24 rounded-lg"
+                                            src="c2-assets/tomato.png" alt="">
+                                        </div>
+                                        <!-- content -->
+                                        <div class="flex-1">
+                                            <div class="flex flex-row gap-2">
+                                                <div class="text-amber-500 text-lg flex-row"><i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <h5 class="text-base">4.5</h5>
+                                            </div>
+                                            <p class="text-lg font-semibold">Onion 1 KG</p>
+                                            <h4 class="text-lg font-semibold"> $ 39.99</h4>
+                                        </div>
+                                    </div>
+                            </div>
+                            <!-- card-5 -->
+                            <div class="card bg-base-100 w-64 h-32 shadow-xl">
+                                    <div class=" grid grid-flow-col items-center">
+                                        <div class="card-actions ">
+                                            <img class="bg-secondary mx-auto my-4 w-24 h-24 rounded-lg"
+                                            src="c2-assets/onion.png" alt="">
+                                        </div>
+                                        <!-- content -->
+                                        <div class="flex-1">
+                                            <div class="flex flex-row gap-2">
+                                                <div class="text-amber-500 text-lg flex-row"><i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <h5 class="text-base">4.5</h5>
+                                            </div>
+                                            <p class="text-lg font-semibold">Onion 1 KG</p>
+                                            <h4 class="text-lg font-semibold"> $ 39.99</h4>
+                                        </div>
+                                    </div>
+                            </div>
+                            <!--  card-6-->
+                            <div class="card bg-base-100 w-64 h-32 shadow-xl">
+                                <div class=" grid grid-flow-col items-center">
+                                    <div class="card-actions ">
+                                        <img class="bg-secondary mx-auto my-4 w-24 h-24 rounded-lg"
+                                        src="c2-assets/tomato.png" alt="">
+                                    </div>
+                                    <!-- content -->
+                                    <div class="flex-1">
+                                        <div class="flex flex-row gap-2">
+                                            <div class="text-amber-500 text-lg flex-row"><i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <h5 class="text-base">4.5</h5>
+                                        </div>
+                                        <p class="text-lg font-semibold">Onion 1 KG</p>
+                                        <h4 class="text-lg font-semibold"> $ 39.99</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- card-7 -->
+                            <div class="card bg-base-100 w-64 h-32 shadow-xl">
+                                <div class=" grid grid-flow-col items-center">
+                                    <div class="card-actions ">
+                                        <img class="bg-secondary mx-auto my-4 w-24 h-24 rounded-lg"
+                                        src="c2-assets/onion.png" alt="">
+                                    </div>
+                                    <!-- content -->
+                                    <div class="flex-1">
+                                        <div class="flex flex-row gap-2">
+                                            <div class="text-amber-500 text-lg flex-row"><i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <h5 class="text-base">4.5</h5>
+                                        </div>
+                                        <p class="text-lg font-semibold">Onion 1 KG</p>
+                                        <h4 class="text-lg font-semibold"> $ 39.99</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- card-8 -->
+                            <div class="card bg-base-100 w-64 h-32 shadow-xl">
+                                <div class=" grid grid-flow-col items-center">
+                                    <div class="card-actions ">
+                                        <img class="bg-secondary mx-auto my-4 w-24 h-24 rounded-lg"
+                                        src="c2-assets/potato.png" alt="">
+                                    </div>
+                                    <!-- content -->
+                                    <div class="flex-1">
+                                        <div class="flex flex-row gap-2">
+                                            <div class="text-amber-500 text-lg flex-row"><i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <h5 class="text-base">4.5</h5>
+                                        </div>
+                                        <p class="text-lg font-semibold">Onion 1 KG</p>
+                                        <h4 class="text-lg font-semibold"> $ 39.99</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- card-9 -->
+                             <div class="max-w-[764px]sm:hidden">
+                            <div class="card bg-base-100 w-64 h-32 shadow-xl">
+                                    <div class=" grid grid-flow-col items-center">
+                                        <div class="card-actions ">
+                                            <img class="bg-secondary mx-auto my-4 w-24 h-24 rounded-lg"
+                                            src="c2-assets/potato.png" alt="">
+                                        </div>
+                                        <!-- content -->
+                                        <div class="flex-1">
+                                            <div class="flex flex-row gap-2">
+                                                <div class="text-amber-500 text-lg flex-row"><i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <h5 class="text-base">4.5</h5>
+                                            </div>
+                                            <p class="text-lg font-semibold">Onion 1 KG</p>
+                                            <h4 class="text-lg font-semibold"> $ 39.99</h4>
+                                        </div>
+                                    </div>
+                            </div>
+                            </div>
+                        </div>
+               </div>
+            </div>    
+        </div>
+    </section>
 
     </main>
     <footer>
-
+        
     </footer>
 </body>
 
